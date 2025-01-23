@@ -1,9 +1,7 @@
 #include <iostream>
-// #include <chrono>
-// #include <thread>
 #include <string>
 #include <SFML/Graphics.hpp>
-#include "src/modules/controler.h"
+#include "modules/controller.h"
 
 int main() {
   int width = 800;
@@ -13,7 +11,7 @@ int main() {
   bool XboolR = false;
   bool YboolU = false;
   bool YboolD = false;
-  sf::RenderWindow window(sf::VideoMode(width, height), "Game?");
+  sf::RenderWindow window(sf::VideoMode(width, height), "Circle that moves");
 
   sf::CircleShape person(10.f);
   person.setFillColor(sf::Color::Green);
@@ -24,8 +22,8 @@ int main() {
   sf::Text exibFPS;
   sf::Text exibOrient;
   sf::Font font;
-  Controler moveAll = Controler(width, height);
-  if (font.loadFromFile("src/fonts/devGaming.ttf")) {
+  Controller moveAll = Controller(width, height);
+  if (font.loadFromFile("fonts/retro_gaming.ttf")) {
     exibFPS.setFont(font);
     exibFPS.setCharacterSize(18);
     exibFPS.setFillColor(sf::Color::Yellow);
