@@ -1,1 +1,0 @@
-g++ -static main.cpp modules/controller.cpp -ISFML-2.6.2\include -LSFML-2.6.2\lib -lsfml-system -lsfml-window -lsfml-network -lsfml-graphics -lsfml-audio -lsfml-main -o out/main.exe
