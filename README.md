@@ -12,7 +12,11 @@ Download the [SFML 2.6.2](https://www.sfml-dev.org/download/sfml/2.6.2) library
 - Testing **C++** after inserting `"bin"` in Windows `environment variables`: `g++ --version`<br>
 - Now just run the `"build.bat"` file and run the file that is in the `"out"` folder
 
+<br>
+
+\- [**Download release for demo**](https://github.com/dspofu/SimplesCodeCppSFML/releases/tag/v0.1.0%40demo)
 ## Result 🕹️
 
+
 **In this example I leave a** `WASD` `shift` **and** `crtl` **control. Movement and speed controls.**
-<img src="https://github.com/dspofu/SimplesCodeCppSFML/blob/main/image.png">
+<img src="https://github.com/dspofu/SimplesCodeCppSFML/blob/main/image.png" alt="Error ao carregar">
